@@ -5,14 +5,13 @@
         'nav main';
     grid-template-columns: 300px 1fr;
     grid-template-rows: 100px 1fr;
-    height: 100vh;
-    font-family: Poppins;
+    font-family: "Poppins";
 }
 
 .header {
     grid-area: header;
     display: grid;
-    grid-template-columns: 300px 5fr repeat(4, 1fr) 0.5fr 0.5fr;
+    grid-template-columns: 300px 5fr 1fr 1fr 1.5fr 1fr;
     align-items: center;
     text-decoration: none;
     color: black;
